@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "icon": "person-outline",
+    "label": "Edit Personal Info",
+    "path": "EditPersonalInfo"
+  },
+  {
+    "id": "2",
+    "icon": "card-outline",
+    "label": "My Income",
+    "path": "Income"
+  },
+  {
+    "id": "3",
+    "icon": "bicycle-outline",
+    "label": "Booking History",
+    "path": "BookingHistory"
+  },
+  {
+    "id": "4",
+    "icon": "lock-closed-outline",
+    "label": "Change Password",
+    "path": "ChangePassword"
+  },
+  {
+    "id": "5",
+    "icon": "folder-outline",
+    "label": "Reports",
+    "path": "Report"
+  },
+  {
+    "id": "6",
+    "icon": "card-outline",
+    "label": "Fare Matrix",
+    "path": "FareMatrix"
+  }
+]

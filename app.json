@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Rideswift Driver",
+    "slug": "Rideswift-Driver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/app-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "package": "com.jereme.RideSwiftDriver"
+    },
+    "web": {
+      "favicon": "./src/assets/app-icon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to your camera in order to take a photo."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "398ea357-171a-4104-9c5b-804c0f54843f"
+      }
+    }
+  }
+}
